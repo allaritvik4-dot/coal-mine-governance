@@ -4,7 +4,7 @@ setlocal enabledelayedexpansion
 
 set "PYTHONW=C:\Users\EDIFY\AppData\Local\Programs\Python\Python313\pythonw.exe"
 set "PYTHON=C:\Users\EDIFY\AppData\Local\Programs\Python\Python313\python.exe"
-set "PROJECT_DIR=C:\Users\EDIFY\.gemini\antigravity\scratch\coal-mine-governance"
+set "PROJECT_DIR=%~dp0"
 
 cd /d "%PROJECT_DIR%\backend"
 
@@ -15,25 +15,27 @@ if errorlevel 1 (
     ping 127.0.0.1 -n 3 >nul
 )
 
-:: Launch standalone application window
+:: Try Chrome first (app mode)
+set "CHROME=C:\Program Files\Google\Chrome\Application\chrome.exe"
+if exist "%CHROME%" (
+    start "" "%CHROME%" --app=http://127.0.0.1:5000 --window-size=1440,900
+    exit /b 0
+)
+
+:: Try Edge next (app mode)
 set "EDGE_1=C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
 set "EDGE_2=C:\Program Files\Microsoft\Edge\Application\msedge.exe"
-set "CHROME=C:\Program Files\Google\Chrome\Application\chrome.exe"
-
-if exist "%EDGE_2%" (
-    start "" "%EDGE_2%" --app=http://localhost:5000 --window-size=1440,900 --app-id=coal_mine_governance
-    exit /b 0
-)
 
 if exist "%EDGE_1%" (
-    start "" "%EDGE_1%" --app=http://localhost:5000 --window-size=1440,900 --app-id=coal_mine_governance
+    start "" "%EDGE_1%" --app=http://127.0.0.1:5000 --window-size=1440,900
     exit /b 0
 )
 
-if exist "%CHROME%" (
-    start "" "%CHROME%" --app=http://localhost:5000 --window-size=1440,900
+if exist "%EDGE_2%" (
+    start "" "%EDGE_2%" --app=http://127.0.0.1:5000 --window-size=1440,900
     exit /b 0
 )
 
-start http://localhost:5000
+:: Universal fallback - open default system browser
+start http://127.0.0.1:5000
 exit /b 0
