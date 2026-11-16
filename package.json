@@ -1,0 +1,38 @@
+{
+  "name": "coal-mine-governance",
+  "version": "1.0.0",
+  "description": "AI-Based Smart Governance and Compliance Monitoring System for Coal Mines",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && python app.py",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "build:frontend": "cd frontend && npm run build",
+    "electron:dev": "electron .",
+    "start": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\" \"wait-on http://localhost:5173 && npm run electron:dev\"",
+    "package": "electron-builder"
+  },
+  "dependencies": {
+    "electron": "^35.2.1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "electron-builder": "^26.0.12",
+    "wait-on": "^8.0.3"
+  },
+  "build": {
+    "appId": "com.coalmine.governance",
+    "productName": "Coal Mine Governance System",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "electron/**/*",
+      "frontend/dist/**/*",
+      "backend/**/*"
+    ],
+    "win": {
+      "target": "nsis"
+    }
+  }
+}

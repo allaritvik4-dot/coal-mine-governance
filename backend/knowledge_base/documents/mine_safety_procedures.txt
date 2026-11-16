@@ -1,0 +1,234 @@
+STANDARD OPERATING PROCEDURES (SOP) AND COMPLIANCE PROTOCOLS
+COAL MINE OPERATIONAL GOVERNANCE AND FIELD SAFETY MANUAL
+
+DOCUMENT REF: DGMS-SOP-COAL-2025/REV-03
+APPLICABILITY: ALL UNDERGROUND AND OPENCAST COAL EXTRACTION DISTRICTS
+
+================================================================================
+SECTION 1: SOP-001 — PRE-SHIFT EXAMINATION AND FLAMMABLE GAS TESTING
+================================================================================
+
+1.1 OBJECTIVE & SCOPE
+To establish mandatory verification protocols for underground atmospheric conditions prior to shift personnel entry, ensuring strict adherence to Coal Mines Regulations 2017 (CMR 2017) Regulations 123, 129, and 153.
+
+1.2 RESPONSIBILITY
+Certified Mining Sirdar / Overman holding valid DGMS Gas Testing Certificate.
+
+1.3 PROTOCOL STEPS:
+Step 1: Instrument Pre-Check:
+- Ensure the portable multi-gas detector (DGMS approved for CH4, CO, CO2, O2, H2S) is freshly calibrated within the last 30 days. Perform bump testing using calibration gas mix before descending.
+- Check battery status (minimum 80% charge required for full 8-hour shift autonomy).
+- Inspect flame safety lamp (if utilized for secondary verification): check wick, gauze for tears, magnetic lock, and fuel reservoir.
+
+Step 2: Intake Airway Verification:
+- Commence inspection from the main intake splits. Measure air velocity using digital vane anemometer.
+- Verify minimum airflow velocity (>= 0.5 m/s in faces, >= 1.5 m/s in main intakes).
+- Record ambient Oxygen (O2 >= 19.5%) and Carbon Monoxide (CO < 5 ppm).
+
+Step 3: Face and Roof Cavity Probing:
+- Advance towards active working faces (Panel A Longwall, Bord & Pillar headings).
+- Extend telescopic probe to roof level and into roof cavities where lighter methane gas accumulates.
+- Check gas concentrations at 30 cm from roof line, middle height, and 30 cm from floor (for heavier gases like CO2).
+- Maximum Permissible Limits:
+  * Methane (CH4) < 0.5% at face before work commences.
+  * If CH4 exceeds 0.75% in general body, alert overman.
+  * If CH4 reaches or exceeds 1.25%: Immediately stop all machinery, isolate district electrical power at the flameproof gate-end box, prevent personnel entry, and report immediately to Mine Manager.
+
+Step 4: Statutory Logging:
+- Complete DGMS Form IV (Register of Daily Inspections) at the inbye reporting station.
+- Record date, exact time, CH4 %, CO ppm, O2 %, ventilation velocity, roof condition, and signature of examining Sirdar.
+
+================================================================================
+SECTION 2: SOP-002 — RESIN ROOF BOLT INSTALLATION AND PULL TESTING
+================================================================================
+
+2.1 OBJECTIVE & SCOPE
+To define the procedure for mechanized and manual roof bolt installation, grouting, and post-installation anchorage verification in compliance with Strata Control and Support Plans (SCSP).
+
+2.2 MANDATORY PARAMETERS:
+- High-yield deformed rebar bolts: Grade Fe-500, diameter 22 mm, nominal length 1.8 m or 2.4 m.
+- Resin capsules: Polyester resin cartridges (fast-set: 15-30 seconds; slow-set: 90-120 seconds).
+- Hole diameter: 28 mm to 32 mm drilled using rotary roof bolter with wet drilling or dust collector.
+
+2.3 STEP-BY-STEP PROCEDURE:
+Step 1: Sounding and Dressing:
+- Prior to drilling, dress loose roof and side spalls using a telescoping steel dressing bar. Never work under unsupported ground. Always install temporary hydraulic props or friction jacks within 1.2 m of the fresh face.
+
+Step 2: Hole Drilling:
+- Align drill mast perpendicular to roof strata bedding plane (or angled at 60° over coal ribs as specified in SCSP).
+- Drill hole to depth exactly equal to bolt length minus 50 mm (to accommodate bearing plate and nut).
+- Flush borehole with water or air jet to remove drilling fines that impede resin bond.
+
+Step 3: Resin Insertion and Spin:
+- Insert fast-setting resin capsule first (into top anchorage horizon), followed by slow-setting capsule (lower column).
+- Push bolt into hole with drill chuck adapter.
+- Rotate bolt at 400-600 RPM for 15-20 seconds to thoroughly shred outer capsule skin and mix resin mastic with hardener.
+- Hold bolt firmly without rotation for 30 seconds until fast resin solidifies (gel time).
+- Install steel bearing plate (150 mm x 150 mm x 8 mm dished washer) and hex nut.
+- Apply tightening torque of 180 to 220 N·m using calibrated pneumatic or electric torque wrench.
+
+Step 4: Statutory Anchorage Pull-Testing:
+- Frequency: At least 1 in every 10 installed bolts (10%) must be pull-tested within 24 hours of installation.
+- Mount hydraulic center-hole ram and calibrated digital gauge.
+- Incrementally apply tensile load up to 100 kN (10.2 tonnes).
+- Pass Criteria: The bolt must sustain 80 kN tensile load with less than 6 mm total displacement, and 100 kN without anchorage rupture.
+- Defective bolts failing load test must be marked with red paint and supplemented by two adjacent bolts installed within 300 mm.
+
+================================================================================
+SECTION 3: SOP-003 — OPENCAST BENCH DRESSING AND SLOPE STABILITY MONITORING
+================================================================================
+
+3.1 OBJECTIVE & SCOPE
+Standard operating protocols for maintaining opencast bench safety, crest clearances, loose rock scaling, and continuous slope displacement detection per CMR 2017 Regulation 175.
+
+3.2 SAFETY RULES AND CLEARANCE ZONES:
+- Bench height must not exceed the maximum digging height of the excavator shovel.
+- Bench width must exceed bench height and never be less than machine width plus 2.0 m.
+- Safety berm height along haul edges must be >= 50% of the wheel diameter of the largest operating vehicle (e.g. 1.8 m berm for HD-785 dumper with 3.6 m tyre diameter).
+- Bench face slope angle must not exceed 55 degrees unless specific geotechnical approval is granted by the DGMS.
+
+3.3 SLOPE MONITORING AND BENCH DRESSING PROTOCOL:
+Step 1: Visual and Robotic Pre-Shift Scan:
+- The opencast assistant manager must visually inspect all bench crests, toes, and highwalls before shifting earth-moving equipment.
+- Look specifically for: tension cracks running parallel to bench crest, bulging at the toe of the bench, perched boulders or overhangs, and water seepage along joint planes.
+
+Step 2: Automated Geodetic Prism Monitoring:
+- Ensure robotic total stations (RTS) and ground-based synthetic aperture radar (GB-SAR) are operational.
+- Trigger automated prism scans every 30 minutes.
+- Alert Thresholds:
+  * Green (Normal): Velocity < 2 mm/day.
+  * Amber (Warning): Velocity between 2 mm/day and 10 mm/day. Increase scan frequency to 10 minutes; restrict light vehicular traffic.
+  * Red (Evacuation Critical): Velocity > 10 mm/day or acceleration > 1 mm/day². Immediately sound mine siren, evacuate all HEMM from bench toe and crest, barricade haul road, and notify Mine Manager.
+
+Step 3: Scaling and Mechanical Dressing:
+- Overhanging rock or perched boulders must be dressed down from above using hydraulic rock breakers or long-reach excavator booms.
+- Scaling from below an overhang is strictly prohibited.
+- Maintain a minimum safety buffer distance of 1.5 times the bench height from the toe while clearing fallen rocks.
+
+================================================================================
+SECTION 4: SOP-004 — SHOT-FIRING AND BLASTING PROTOCOLS
+================================================================================
+
+4.1 STATUTORY AUTHORIZATION
+Blasting operations must be conducted solely by licensed Shot-Firers holding valid DGMS Overman's or Shot-Firer's Competency Certificates.
+
+4.2 PROTOCOL FOR OPENCAST AND UNDERGROUND BLASTING:
+Step 1: Pre-Blast Preparation and Hole Clearing:
+- Check hole depths with tamping rod. Ensure holes are free of water, sludge, or blockages.
+- Verify burden, spacing, and sub-grade drilling conform to approved blasting design.
+
+Step 2: Explosive Handling and Charging:
+- Only permitted explosives (DGMS approved emulsion, slurry, or ANFO) and approved delay detonators (shock tubes / non-electric detonators) may be utilized.
+- Never use metal rods for tamping. Use smooth wooden or antistatic plastic tamping rods only.
+- In underground coal seams, use P1 / P3 / P5 permitted explosives. Maximum charge per hole must not exceed statutory limit (1000g for solid blasting in Degree II seams).
+- Fill remainder of hole with non-combustible stemming material (clay / sand mix ratio 3:1). Stemming length must be at least equal to the burden distance.
+
+Step 3: Clearance and Danger Zone Enforcement:
+- Danger Zone: Opencast blasting danger radius is 500 meters from the blasting site. Underground blasting danger zone is 150 meters along all intersecting roadways.
+- Post trained guards at every access route, trail, and roadway entering the danger zone.
+- Guards must carry red flags and whistles; no unauthorized person may pass under any circumstances.
+- Sound siren in three distinct stages:
+  * First Siren (5 minutes prior): Prolonged continuous horn — Danger Zone Clear.
+  * Second Siren (1 minute prior): Intermittent horn — All personnel into shelters, prepare to fire.
+  * Third Blast Signal: Shot is fired by exploder key.
+
+Step 4: Post-Blast Inspection:
+- Wait minimum 30 minutes in opencast and underground before re-entering blast area to permit toxic fumes (NOx, CO) and dust clouds to dissipate.
+- Shot-firer inspects face for misfires, sockets, hanging boulders, and damaged supports.
+- If misfire is detected:
+  * Never pull wires or excavate misfired charge.
+  * Barricade area with red warning tape.
+  * Drill a relieving hole parallel to the misfired hole at a distance of not less than 300 mm.
+  * Charge and fire relieving hole to detonate original charge.
+- Sound continuous All-Clear siren (2 minutes duration) only after full post-blast safety verification.
+
+================================================================================
+SECTION 5: SOP-005 — ELECTRICAL LOCK-OUT / TAG-OUT (LOTO) AND FLP INTEGRITY
+================================================================================
+
+5.1 OBJECTIVE & MANDATE
+Zero-energy state verification prior to electrical or mechanical maintenance on 3.3 kV, 550 V, and 415 V circuits, and preservation of Flameproof (FLP) enclosure ratings under CEA Mine Regulations.
+
+5.2 ISOLATION PROCEDURE:
+Step 1: Identify and Notify:
+- Identify all incoming power sources. Notify the shift supervisor, electrical engineer, and working crew of pending electrical isolation.
+
+Step 2: Switch Off and Lock:
+- Open main isolator on the flameproof gate-end box or substation panel.
+- Padlock the isolator handle in the open ("OFF") position using personal safety padlock. Retain personal key.
+- Attach standardized Danger Tag indicating: Name of Engineer, Section, Time of Isolation, Reason for Maintenance.
+
+Step 3: Test for Dead (Zero Energy Verification):
+- Using calibrated high-voltage proximity detector or certified test probes, verify the absence of voltage on all phases.
+- Discharge residual capacitive energy and apply temporary earth connections to all line terminals.
+
+Step 4: Flameproof Enclosure Maintenance Rules:
+- Before opening any FLP enclosure underground, the area must be tested for CH4 (< 0.5% required).
+- FLP flange joints must be clean, mirror-smooth, free of rust, paint, or burrs.
+- Check flange gap clearance using feeler gauges: maximum permissible gap is 0.4 mm for air-break apparatus and 0.5 mm for oil-break apparatus.
+- Replace all high-tensile casing bolts. Ensure every bolt hole has its corresponding bolt firmly torqued. Missing or loose bolts completely invalidate flameproof certification!
+
+================================================================================
+SECTION 6: SOP-006 — HEAVY EARTH MOVING MACHINERY (HEMM) OPERATION & HAULAGE
+================================================================================
+
+6.1 DAILY PRE-START INSPECTION (WALK-AROUND CHECK):
+Before starting dumpers (HD-785, CAT 777), excavators (EX-350, PC-1250), or dozers (D375A), the operator must complete the Pre-Start Checklist:
+- Tyre condition: Check tread depth, sidewall cuts, inflation pressure (minimum 85 PSI).
+- Fluid levels: Engine oil, hydraulic fluid, coolant, brake fluid.
+- Safety devices check:
+  * Audio Visual Alarm (AVA) operational when reverse gear engaged.
+  * Horn sound pressure level >= 110 dBA.
+  * Automatic Fire Detection & Suppression System (AFDSS) cylinder pressure in green zone.
+  * Operator seat belt functional and worn throughout shift.
+  * Retarder brake and emergency dynamic brake tested on flat surface before entering ramp.
+
+6.2 HAUL ROAD DISCIPLINE:
+- Maximum speed limits:
+  * Active pit haul road: 30 km/h.
+  * Loading and dumping areas: 15 km/h.
+  * Sharp curves and intersection approaches: 10 km/h.
+- Minimum following distance: Maintain at least 50 meters distance between dumpers in dry weather; 100 meters during rain or dusty conditions.
+- Overtaking: Strictly forbidden on haul ramps, blind curves, or within 50 meters of intersections.
+- Dump Area Dumping Protocol:
+  * Dumpers must reverse perpendicular to dump crest.
+  * Never dump without physical contact with the dump safety berm.
+  * Spotter with high-visibility vest and baton must direct dumping operations during night hours.
+
+================================================================================
+SECTION 7: SOP-007 — WATER INRUSH DETECTION AND EMERGENCY EVACUATION
+================================================================================
+
+7.1 PREVENTIVE DRILLING:
+- When working within 120 meters of waterlogged old workings or geological faults, maintain at least two advance probe holes at 15m depth, and flanking holes at 45° drilled every 5m advance.
+- Signs of approaching water inrush:
+  * Sweating of coal face (droplets oozing from cleavage planes).
+  * Sudden drop in ambient air temperature.
+  * Increase in water volume or turbidity in floor drains.
+  * Hissing noise of escaping dissolved gas (H2S or CH4).
+  * Rotten egg odor indicating Hydrogen Sulphide.
+
+7.2 EMERGENCY RESPONSE TO WATER INFLOW:
+- Step 1: Immediate evacuation alarm sounded via mine telephone and strobe lights.
+- Step 2: All personnel immediately head towards primary escape shaft via rise workings (never evacuate down dips).
+- Step 3: De-energize all non-pumping electrical feeders to prevent electrocution hazards.
+- Step 4: Standby sump pumps (capacity >= 2000 GPM) automatically triggered.
+- Step 5: Surface control room notified to alert DGMS regional directorate and activate mutual aid rescue brigades.
+
+================================================================================
+SECTION 8: SOP-008 — INCIDENT REPORTING AND ROOT CAUSE ANALYSIS WORKFLOW
+================================================================================
+
+8.1 MANDATORY TIMELINES UNDER MINES ACT SECTION 23:
+- Fatal Accident or Serious Bodily Injury:
+  * Immediate telephone/telegraphic notification within 24 hours to DGMS Director, Regional Inspector, and District Magistrate.
+  * Formal Form IV-A report submitted within 72 hours.
+- Dangerous Occurrence (e.g., fire, spontaneous heating, water inrush, bench failure, overwinding of cage, rope failure):
+  * Notice submitted within 24 hours.
+
+8.2 SCENE PRESERVATION & INVESTIGATION:
+- The site of a fatal accident or dangerous occurrence must be sealed and preserved completely undisturbed until inspected by the DGMS Inspector.
+- No machinery, debris, or supports may be moved except as strictly required for rescue or recovery of casualties.
+- Root Cause Analysis (RCA) Team: Comprising Mine Manager, Safety Officer, Workmen's Inspector, and Senior Mechanical/Electrical Engineer.
+- Methodology: 5-Why Analysis and Fault Tree Analysis (FTA) to establish direct causes, underlying mechanical failures, and systematic management deficiencies.
+- Action Tracking: Corrective actions entered into compliance governance system with designated responsible officer and strict closure deadline.

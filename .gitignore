@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.egg-info/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# ChromaDB persistence (rebuild on startup)
+chroma_db/
+
+# Vite cache
+.vite/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Electron build output
+out/
+
+# Uploads
+uploads/
+
+# Temporary scripts
+generate_icons.py
+fix_passwords.py

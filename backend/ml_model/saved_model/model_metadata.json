@@ -1,0 +1,30 @@
+{
+  "model_name": "Coal Mine Statutory Hazard & Risk Predictor",
+  "model_architecture": "Hybrid TF-IDF + LogisticRegression / GradientBoosting",
+  "statutory_scope": "Coal Mines Regulations (CMR) 2017 & DGMS Safety Framework",
+  "trained_at": "2026-11-16T10:57:18.429184Z",
+  "training_samples": 54,
+  "metrics": {
+    "category_accuracy": 0.3571,
+    "category_f1": 0.3061,
+    "severity_accuracy": 0.2857,
+    "severity_f1": 0.1786
+  },
+  "supported_categories": [
+    "dust_explosion",
+    "electrical_short_circuit",
+    "gas_inrush",
+    "inundation",
+    "machinery_failure",
+    "roof_fall",
+    "slope_instability",
+    "spontaneous_combustion",
+    "ventilation_failure"
+  ],
+  "supported_severities": [
+    "low",
+    "medium",
+    "high",
+    "critical"
+  ]
+}
